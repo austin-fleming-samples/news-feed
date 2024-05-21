@@ -1,0 +1,9 @@
+:root {
+	--l-max-content-width: 1200px;
+	--l-max-content-width--narrow: 500px;
+
+	--l-header-height: 60px;
+	--l-screen-minus-header: calc(100vh - var(--l-header-height));
+
+	--site-padding: 18px;
+}

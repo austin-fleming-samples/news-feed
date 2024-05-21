@@ -1,0 +1,15 @@
+@import './colors.css';
+@import './layout.css';
+
+html,
+body {
+	@apply text-primary w-full;
+}
+
+html {
+	@apply scroll-smooth;
+}
+
+body {
+	@apply bg-background h-full overflow-x-hidden;
+}

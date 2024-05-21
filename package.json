@@ -1,0 +1,15 @@
+{
+  "name": "news-feed",
+  "version": "1.0.0",
+  "author": "flimflam-austin <68439674+flimflam-austin@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "web": "yarn workspace web",
+    "cms": "yarn workspace cms",
+    "clean": "rm -rf node_modules && yarn web clean && yarn cms clean"
+  }
+}
